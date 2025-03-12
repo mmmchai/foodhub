@@ -1,1 +1,19 @@
-# foodhub
+# FoodHub Data Analysis
+## Context
+New York's restaurant scene is expanding rapidly, catering to busy students and professionals who rely on dining out or food delivery. FoodHub, a food aggregator, simplifies this with a single app connecting users to multiple restaurants.
+
+Customers place orders through the app, which directs them to the restaurant. Once confirmed, a company-assigned delivery person picks up the order, navigates using the app, and delivers it to the customer. The app tracks each step, allowing customers to rate their experience. FoodHub earns revenue by taking a fixed commission from restaurant orders.
+
+## Objective
+To analyze order demand on the app and deliver data-driven recommendations to enhance the customer experience.
+
+## Data Description
+order_id: Unique ID of the order
+customer_id: ID of the customer who ordered the food
+restaurant_name: Name of the restaurant
+cuisine_type: Cuisine ordered by the customer
+cost: Cost of the order
+day_of_the_week: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday)
+rating: Rating given by the customer out of 5
+food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.
+delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
