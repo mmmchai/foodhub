@@ -19,7 +19,7 @@ To analyze order demand on the app and deliver data-driven recommendations to en
 * delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
 
 ## Conclusion
-refer to analysis notebook
+(/refer to analysis notebook)
 ### Revenue:
 The top 5 restaurants contribute ~30% of total revenue, indicating a few major restaurants dominate the platform.
 The 4 popular cuisines are American, Japanese, Italian, Chinese, which contribute over 80% of the total revenue. These cuisines drive most of the business on the platform.
