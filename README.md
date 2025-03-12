@@ -19,7 +19,7 @@ To analyze order demand on the app and deliver data-driven recommendations to en
 * delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
 
 ## Conclusion
-(refer to analysis notebook)
+*see analysis notebook for details*
 ### Revenue:
 The top 5 restaurants contribute ~30% of total revenue, indicating a few major restaurants dominate the platform.
 The 4 popular cuisines are American, Japanese, Italian, Chinese, which contribute over 80% of the total revenue. These cuisines drive most of the business on the platform.
@@ -38,6 +38,7 @@ Furthermore, Korean and Vietnamese have the lowest price on average, however the
 Delivery time significantly increases during the weekdays, while food preparation time remains constant between weekends or weekdays, suggesting potential bottleneck in delivery capacity during weekdays.
 
 ## Recommendations:
+*see analysis notebook for details*
 ### Revenue Strategy:
 
 * Leverage top-performing restaurants and form partnership strategies. Up-sell and cross-sell their menu items, since most customers are ordering budget-friendly items, but are willing to pay higher for high quality food. Promote top restaurants in the search results, provide discounts / promotions for higher-price items to drive adoption.
